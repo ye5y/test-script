@@ -1,0 +1,53 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local window = kavoUi.CreateLib("Yeyshil Hub","BloodTheme")
+
+---Tabs
+
+local Tab1 = window:NewTab("Bedwars")
+
+local Tab1Section = Tab1:NewSection("Bedwars hack")
+
+local Tab2 = window:NewTab("Doors")
+
+local Tab2Section = Tab1:NewSection("Doors hack")
+
+local Tab3 = window:NewTab("Main")
+
+local Tab3Section = Tab1:NewSection("Main things")
+
+local Tab4 = window:NewTab("Funny")
+
+local Tab4Section = Tab1:NewSection("Funny things")
+
+---Buttons
+
+Tab1Section:NewButton("Vape 4V","Easy win to bedwars")function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+
+end)
+
+Tab2Section:NewButton("Doors LOL EZZ","Doors hack to win")function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/main.lua"))()
+
+end)
+
+Tab3Section:NewButton("Keyboard","PC keyboard")function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+end)
+
+Tab3Section:NewButton("Script Hub","More scripts")function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/MoonUI-v10-/main/MoonUI%20v10'))()
+
+end)
+
+Tab4Section:NewButton("Baller","Just being baller")function()
+
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Lowerrated/roblox-fe-baller-script/main/main"))()
+
+end)
